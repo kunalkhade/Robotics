@@ -9,7 +9,9 @@ Solution –
 
 Full Problem Solution Explanation – At the beginning of the solution array (t) of 50 points generated which are equally spaced between 0 to 3.14. Further, these points have passed through the forwarding kinematics equation which generates an array x and y coordinates of the manipulator (requested path fig.1). All the generated points provide the location of x and y coordinates of individual points. Then points passed through Inverse Kinematics equations which generate two angles (t1, t2) (joint angles fig.2) with the end positions of two link manipulators (x1, y1). At the end plot all points using matplot library (traversed path fig.3).
 
-
+![1 1](https://user-images.githubusercontent.com/50337861/80894022-64a7fa00-8c94-11ea-932f-025307e36e02.png)
+![1 2](https://user-images.githubusercontent.com/50337861/80894024-65409080-8c94-11ea-8663-5df970548af1.png)
+![1 3](https://user-images.githubusercontent.com/50337861/80894025-65409080-8c94-11ea-8968-fb328468ef49.png)
 
 Problem No – 2
 
@@ -18,6 +20,13 @@ Assume that you have a two-link manipulator with 𝑎1 = 15cm and 𝑎2 = 15cm a
 Solution –
 
 Full Problem Solution – Problem statement consists of four lines so 4 arrays generated for each line. Each array consists of 30 points (requested path fig.1). Inverse Kinematics function made in order to repeat the same process for 4 lines. It takes x and y input of each point and returned joint angles t1, t2 and location x1, y1. Returned values stored inside the array. In the end, all four arrays concatenate and made one single array and plotted that array using a matplot library (joint angles fig.2)(traversed path fig.3).
+
+
+![2 1](https://user-images.githubusercontent.com/50337861/80894030-76899d00-8c94-11ea-9e86-b3ceb265f73b.png)
+![2 3](https://user-images.githubusercontent.com/50337861/80894031-77baca00-8c94-11ea-98ae-c3e05e581261.png)
+![2 2](https://user-images.githubusercontent.com/50337861/80894033-78536080-8c94-11ea-8ef3-f52823c14e1b.png)
+
+
 
 
 
@@ -29,4 +38,6 @@ Solution –
 
 On the basis of the above equation x and y calculated which is the center of the circle is (10,8) with radius r = 5. Using linespace command parallel line plotted with a distance of 10 units (r x 2) center of the distance (10,8). In the ‘for’ loop, an array of 200 points generated on the basis of circle equations (x,y) and points are equally spaced from 0 to 3.14. coordinates of these points are stored in an array named curve and plotted them along x and y a six using matplotlib library (semi-circle and line path fig.1).
 
+![D](https://user-images.githubusercontent.com/50337861/80894042-873a1300-8c94-11ea-81c6-67b87b0daf43.JPG)
+![3 1](https://user-images.githubusercontent.com/50337861/80894045-886b4000-8c94-11ea-9bcb-5aa811b65a4b.png)
 
